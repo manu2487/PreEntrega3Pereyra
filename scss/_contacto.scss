@@ -1,0 +1,11 @@
+/* Dejo puesto el archivo que corresponde a Contacto para cuando sea implementado en algún momento */
+
+.hover-underline {
+    color: $color-negro;
+    font-weight: bold;
+    transition: text-decoration 0.3s ease;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}

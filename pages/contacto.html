@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactanos para consultas sobre cobertura, solicitud de información adicional, reporte de problemas o reclamos, actualización de datos personales, sugerencias o comentarios. También brindamos asistencia técnica y programación de consultas médicas. Estamos aquí para ayudarte.">
+    <meta name="keywords" content="contacto, Integral Salud, consultas cobertura, información adicional, programación consultas médicas">
+    <link rel="shortcut icon" href="../icon/favicon-32x32.png" type="image/x-icon">
+    <title>INTEGRAL SALUD: Contacto</title>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>    
+    <header class="encabezado">
+        <h1><span class="azul1">INTEGRAL</span>
+            <span class="azul2">SALUD</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/planes.html">Planes</a></li>
+                <li><a href="../pages/prestadores.html">Prestadores</a></li>
+                <li><a href="../pages/novedades.html">Novedades</a></li>
+                <li><a href="../pages/contacto.html" class="resaltado">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>        
+        <div class="container mt-5 custom-spacing">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6">
+                    <h2 class="text-center mb-4 hover-underline">Formulario de Contacto</h2>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre + Apellido" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="(código de área) + (numero)" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" name="correo" placeholder="tucorreo@tudominio.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="motivo" class="form-label">Motivo</label>
+                            <textarea class="form-control" id="motivo" name="motivo" rows="3" placeholder="Comentanos el motivo de tu contacto y como podemos ayudarte :)" required></textarea>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>            
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footerContenido">
+            <div class="infoContacto">
+                <h4>Contacto</h4>
+                <p><a href="https://maps.app.goo.gl/UBDfLeNgHz1kPi766" target="_blank"><i class="fas fa-map-marker-alt" ></i>Dirección: 25 de Mayo 90, Tucumán</a></p>
+                <p><a href="tel:+543814844000" target="_blank"><i class="fas fa-phone"></i>Teléfono: +54 3814844000</a></p>
+                <p><a href="mailto:info@integralsalud.com"><i class="fas fa-envelope"></i>Email: info@integralsalud.com</a></p>
+            </div>
+            <div class="redesSociales">
+                <h4>Redes Sociales</h4>
+                <a href="https://www.facebook.com/coderhouse" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/coderhouse" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/coderhouse" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/Coderhouse/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
+</body>
+</html>

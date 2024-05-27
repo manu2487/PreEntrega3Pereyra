@@ -1,0 +1,132 @@
+/* ------------------ 0 hasta 768px ------------------ */
+@media (max-width: 768px) {
+  /*Index */
+  img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+  .main h3,
+  .main p {
+    font-size: 70%;
+  }
+
+  /*Footer*/
+  .footerContenido{
+    font-size: 2rem;
+  }
+
+  /*Planes*/
+  /* Reducción del tamaño de la letra de los contenidos a un 70% */
+  #planes h3,
+  #planes p,
+  .contenedorPlanes .tarjeta h5,
+  .contenedorPlanes .tarjeta p {
+    font-size: 70%; /* Reduce el tamaño de la letra al 70% */
+  }
+
+  /*Prestadores*/
+  /* Reducción del tamaño de la letra de los contenidos a un 70% */
+  #prestadores h3,
+  #prestadores p,
+  .contenedorPrestadores .tarjeta p {
+    font-size: 70%; /* Reduce el tamaño de la letra al 70% */
+  }
+
+  /*Novedades*/
+  /* Reducción del tamaño de la letra de los contenidos a un 70% */
+  #novedades h3,
+  #novedades p,
+  .carousel-caption h5,
+  .carousel-caption p {
+      font-size: 70%; /* Reduce el tamaño de la letra al 70% */
+  }
+
+  /*Contacto*/
+  /* Reducción del tamaño de la letra de los contenidos a un 70% */
+  .encabezado h1,
+  nav ul li a,
+  .container h2,
+  .form-label,
+  .form-control,
+  .footerContenido h4,
+  .footerContenido p,
+  .footerContenido a {
+      font-size: 70%; /* Reduce el tamaño de la letra al 70% */
+  }
+}
+
+/* Novedades Ajustes específicos para la vista móvil */
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%; /* Ancho completo en móviles para mejor visibilidad */
+    display: block;
+  }
+  .carousel-item img {
+    height: 300px; /* Ajusta la altura del carrusel en móviles si es necesario */
+  }
+  .carousel-caption h5,
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+/* ------------------ 768px hasta 1023px ------------------ */
+/* Novedades Ajustes para tablet */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .carousel-item img {
+    height: 400px; /* Ajusta la altura del carrusel en tablets si es necesario */
+  }
+}
+
+/* ------------------  hasta 1023px ------------------ */
+@media (max-width: 1023px) {
+  /*Header*/
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .encabezado .boton {
+    display: none;
+  }
+
+  /*Planes*/
+  .planes {
+    margin: 5vh;
+    font-size: 2rem;
+  }
+  .planes h3,
+  .planes p {
+    font-size: inherit;
+  }
+  .contenedorPlanes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*Prestadores*/
+  .contenedorPrestadores {
+    flex-direction: column;
+  }
+
+  
+  /* ------------------  1024px en adelante ------------------ */
+  /* Novedades Ajustes para escritorio */
+  @media (min-width: 1024px) {
+    .carousel-item img {
+      height: 500px; /* Ajusta la altura del carrusel en escritorios si es necesario */
+    }
+  }
+  /* Aquí termino todo el código para carrusel incluido responsive */
+
+  /* Index video insertado*/
+  .video-container {
+    max-width: 50%; /* Ajusta este valor según lo necesario */
+    margin: 0 auto; /* Centra el video */
+  }
+
+  /*Footer*/
+  .footerContenido {
+    flex-direction: column;
+    text-align: center;
+  }
+}

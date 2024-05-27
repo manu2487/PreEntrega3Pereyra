@@ -1,0 +1,39 @@
+/* Novedades */
+/* Estilos específicos para el carrusel */
+
+.carousel {
+  width: 70%;
+  margin: 0 auto; /* Centrar horizontalmente */
+  margin-bottom: 50px; /* Espacio adicional al final del carrusel */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;  /* Asegura que la imagen cubra todo el contenedor sin distorsión */
+}
+
+/* Cambiar color del texto en los captions del carrusel */
+
+.carousel-caption {
+  h5 {
+    color: $color-negro; /* Aquí va el color elegido */
+    font-weight: 900;
+    font-size: 2rem;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  p {
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    color: $color-negro; /* Aquí va el color elegido */
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+}

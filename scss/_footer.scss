@@ -1,0 +1,66 @@
+/* Para que el Footer siempre quede al final, agrego las sgtes sentencias */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footerContenido {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.infoContacto p,
+.redesSociales a {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.infoContacto {
+  a {
+    text-decoration: none;    /* Quitar el subrayado al linkear el mapa de Google */
+    color: inherit;           /* Mantener el color predeterminado */
+  }
+
+  i {
+    color: $color-integral;
+  }
+}
+
+.redesSociales a {
+  color: $color-integral;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.5rem;
+
+  &:hover {
+    color: $color-salud;
+  }
+}
+
+.footer i {
+  margin-right: 10px;
+}

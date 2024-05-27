@@ -1,0 +1,56 @@
+/*Todas: usan encabezado, engloba todo el Header */
+
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background: #B8E1FC;
+  background: linear-gradient(to left, #B8E1FC 0%, #231421 99%);
+  box-shadow: 0 4px 8px #0000001a;
+  padding: 20px;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+  }
+}
+
+.encabezado li {
+  list-style-type: none;
+  display: inline-block;
+
+  a {
+    padding: 10px;                                        /* Espacio alrededor del texto */
+    transition: background-color 0.3s, font-size 0.3s;    /* Transiciones suaves */
+    text-decoration: none;
+    margin: 10px;
+    color: $color-negro;
+    font-size: 1.5rem;
+
+    &:hover {      
+      font-size: 1.6em;               /* Aumento del tamaño del texto */
+      color: $color-salud;
+      border-radius: 50%;
+      background-color: $color-integral;    /* Aquí va el color elegido de fondo */
+      transition: background-color 1s ease;
+    }
+  }
+}
+
+/*Todas: usan encabezado h1, para efectos en el logo */
+/*Todas: usan resaltado para indicar en cual pagina estoy parado */
+
+.resaltado {
+  font-weight: bold;
+}
+
+/*Todas: usan class azul1 y azul2 usados para el logo */
+.azul1 {
+  color: $color-integral;
+}
+.azul2 {
+  color: $color-salud;
+}
